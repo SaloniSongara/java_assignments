@@ -1,0 +1,38 @@
+DAY-2 -- Assignment 1 SDLC Overview - Create a one-page infographic that outlines the SDLC phases (Requirements, Design, Implementation, Testing, Deployment), highlighting the importance of each phase and how they interconnect.
+
+SDLC Phases:
+1). Planning : 
+•	Gathering client’s requirements
+•	Defining project scope
+•	Set objectives & goals
+•	Resource planning
+
+2). Requirement analysis :
+•	Analyzing functional requirements
+•	Analyzing technical requirements
+•	Checking for feasibility
+
+3). Designing : 
+•	Creating overview of software before actual development initiates
+•	High level designing: 
+•	Low level designing: design each and every feature in details
+
+4). Coding : 
+•	Actual developments starts here
+•	Coding is done by developers
+•	Review the code developed as per requirement
+
+5). Testing : 
+•	Tests whether the developed product meets the client requirement or not
+•	Improves the overall quality of the software
+•	System testing, manual testing and automated testing happens here
+
+6). Deployment : 
+•	Code is released in real world environment
+•	End user do the testing in real world environment
+
+7). Maintenance : 
+•	After services provided to the customer after deployment as per service 	agreement
+•	Patch update, log file capture, version updates are done in maintenance 	phase
+•	Makes software more reliable, stable and up to date as per user 	feedback
+

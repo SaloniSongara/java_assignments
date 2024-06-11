@@ -1,0 +1,81 @@
+DAY-1 -- Assignment 1: write the network terminologies with example.
+
+IP Address (Internet Protocol Address)
+Definition: A unique string of numbers separated by periods (IPv4) or colons (IPv6) that identifies each computer using the Internet Protocol to communicate over a network.
+Example: IPv4: 192.168.1.1, IPv6: 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+
+MAC Address (Media Access Control Address)
+Definition: A hardware identification number that uniquely identifies each device on a network.
+Example: 00:1A:2B:3C:4D:5E
+
+Subnet Mask
+Definition: A 32-bit number that divides an IP address into network and host portions.
+Example: 255.255.255.0
+
+Gateway
+Definition: A node that serves as an access point to another network.
+Example: In a home network, the router’s IP address often serves as the gateway, like 192.168.1.1.
+
+DNS (Domain Name System)
+Definition: The system that translates human-friendly domain names into IP addresses.
+Example: Translating www.example.com to 93.184.216.34
+
+DHCP (Dynamic Host Configuration Protocol)
+Definition: A network management protocol used to dynamically assign an IP address to each device on a network.
+Example: A router assigning 192.168.1.5 to a laptop.
+
+LAN (Local Area Network)
+Definition: A network that connects computers within a limited area such as a residence, school, or office building.
+Example: A network within an office building.
+
+WAN (Wide Area Network)
+Definition: A telecommunications network that extends over a large geographical area.
+Example: The internet.
+
+VLAN (Virtual Local Area Network)
+Definition: A subgroup within a LAN that can communicate as if they were on the same physical LAN.
+Example: Separating the HR department’s network traffic from the IT department’s within the same building.
+
+Firewall
+Definition: A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.
+Example: Blocking all traffic except HTTP and HTTPS.
+
+NAT (Network Address Translation)
+Definition: A method of remapping one IP address space into another by modifying network address information in IP packet headers.
+Example: A home router allowing multiple devices to share a single public IP address.
+
+VPN (Virtual Private Network)
+Definition: A service that creates a safe and encrypted connection over a less secure network, such as the internet.
+Example: Using a VPN to securely connect to your company's network from a remote location.
+
+SSID (Service Set Identifier)
+Definition: A unique ID that consists of 32 characters and is used for naming wireless networks.
+Example: MyHomeWiFi
+
+Bandwidth
+Definition: The maximum rate of data transfer across a given path.
+Example: A 100 Mbps internet connection.
+
+Latency
+Definition: The time it takes for a data packet to travel from the source to the destination.
+Example: A latency of 20 ms between a computer and a server.
+
+Throughput
+Definition: The rate at which data is successfully transferred from one place to another.
+Example: A throughput of 500 Mbps during a file download.
+
+Protocol
+Definition: A set of rules that determine how data is transmitted and received over a network.
+Example: TCP/IP, HTTP, FTP.
+
+Router
+Definition: A device that forwards data packets between computer networks.
+Example: A home WiFi router.
+
+Switch
+Definition: A network device that connects devices together on a computer network and uses packet switching to forward data to the destination device.
+Example: An Ethernet switch connecting computers in a LAN.
+
+Modem
+Definition: A device that modulates and demodulates signals for data transmission over phone lines or cable systems.
+Example: A DSL modem for internet connectivity.

@@ -1,0 +1,51 @@
+DAY-1 -- Assignment 2: Draw your Home Network Topology and explain how you are accessing the RPS Lab environment.
+
+HOME NETWORK TOPOLOGY
+[Internet]
+     |
+     |
+ [Modem]
+     |
+ [Router]
+     |
+     |----[Laptop]
+     |
+     |----[Smartphone1]
+     |
+     |----[Smartphone2]
+     |
+     |----[Smartphone3]
+     |
+     |----[Smartphone4]
+     |
+     |----[Smart TV]
+     |
+     |----[Printer]
+     |
+     |----[NAS (Network Attached Storage)]
+
+
+Accessing the RPS Lab Environment
+To access the RPS Lab environment from this home network, the following steps are typically involved:
+1.	Secure Remote Access:
+*	VPN (Virtual Private Network): Establish a secure connection to the RPS Lab network. This encrypts the data and provides a secure tunnel through the Internet to the lab environment.
+*	SSH (Secure Shell): A protocol used to securely log in to remote systems. Often used for accessing command-line interfaces on servers within the lab.
+
+2.	Lab Environment:
+*	RPS Lab Network: The network infrastructure within the lab where various servers, workstations, and other resources are located.
+*	Accessing Lab Resources: Once connected to the VPN, use SSH or other remote access tools (like Remote Desktop Protocol (RDP) for graphical interfaces) to interact with the lab environment.
+
+Detailed Access Workflow:
+1.	Connect to VPN:
+*	Use VPN client software on the Desktop Computer or Laptop.
+*	Enter VPN credentials to establish a secure connection to the RPS Lab network.
+
+2.	Use SSH:
+*	Open a terminal on the Desktop Computer or Laptop.
+*	Use the ssh command to connect to a specific server or workstation within the RPS Lab.
+*	Example command: ssh username@lab-server-ip-address
+
+3.	Perform Tasks in RPS Lab:
+*	Once logged in via SSH, execute commands, run programs, or manage resources within the lab environment as needed.
+
+By following these steps, a user can securely access and interact with the RPS Lab environment from their home network.

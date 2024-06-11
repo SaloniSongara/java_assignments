@@ -1,0 +1,41 @@
+Test Driven Development
+•	Test Driven Development is a kind of modern development technique. In this technique, tests are written before the actual code.
+•	The main goal of TDD is to ensure the code is thoroughly tested and meets the customer requirements.
+•	It’s a “inside-out” process.
+Flow chart of TDD
+
+      Start
+	|
+    Write a test
+	|
+    Run the test
+	|
+    Write a code
+	|                    
+    Run the test
+	|
+  Refractor the code
+	|
+Repeat until all test cases are passed
+
+Steps in TDD
+1.	Write a Test: Write a test for a new functionality or an improvement to an existing one.
+2.	Run the Test (It should fail): Run the test to ensure it fails, verifying that the functionality is not yet implemented.
+3.	Write the Code: Write the minimal code necessary to pass the test.
+4.	Run the Test (It should pass): Run the test again to see if the new code passes.
+5.	Refractor the Code: Refractor the code to improve its structure and readability while ensuring the test still passes.
+6.	Repeat: Repeat the process for the next piece of functionality.
+
+Advantages:
+•	It improves the code quality.
+•	It reduces the bugs.
+•	It helps in better designing.
+
+Disadvantages:
+•	The process is time consuming.
+•	Tests need to be maintained alongside the code.
+•	Developing test cases for all the scenarios is difficult.
+
+Test-Driven Development (TDD) fosters software reliability through :
+•	Early bug detection: Bugs are identified and resolved early in the development process, reducing the likelihood of defects in the final product.
+•	Refractoring the code again and again: Code quality is continuously improved without sacrificing reliability, as tests provide a safety net that verifies the correctness of refractored code.
